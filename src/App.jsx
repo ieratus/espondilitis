@@ -14,12 +14,14 @@ function App() {
   return (
     <>
     <Header />
-    <Routes>
-      <Route element={<Test />} path='/'/>
-      <Route element={<DolorDeEspalda />} path='/dolor-de-espalda'/>
-      <Route element={<Espondiloartritis />} path='/espondiloartritis-axial'/>
-      <Route element={<AhoraQue />} path='/ahora-que'/>
-    </Routes>
+    <section className='container py-3'>
+      <Routes  >
+        <Route element={<Test />} path='/'/>
+        <Route element={<DolorDeEspalda />} path='/dolor-de-espalda'/>
+        <Route element={<Espondiloartritis />} path='/espondiloartritis-axial'/>
+        <Route element={<AhoraQue />} path='/ahora-que'/>
+      </Routes>
+    </section>
  
     <Footer />
     </>
